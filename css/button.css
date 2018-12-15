@@ -20,3 +20,13 @@
     color: rgb(99, 0, 185);
     transition: 0.5s;
 }
+
+
+/* #### */
+
+.btn-kenal {
+    background-color: #66c1fd;
+    padding: 13px 35px;
+    border-radius: 50px;
+    color: #fff;
+}

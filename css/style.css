@@ -4,6 +4,8 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 
+/* ##### Header ##### */
+
 header {
     width: 100%;
     height: 600px;
@@ -37,8 +39,107 @@ header {
 }
 
 .img-ui {
-    animation: ui 5s ease-in-out infinite;
+    animation: ui 3s ease-in-out infinite;
 }
+
+
+/* ##### What we do Section ##### */
+
+.doing {
+    width: 100%;
+    height: 390px;
+    padding: 70px 0 50px 0;
+} .strip {
+    width: 50px;
+    height: 2px;
+    margin: auto;
+    border-radius: 2px;
+    background-color: #34495e;
+}
+.doing h2 {
+    text-align: center;
+    color: #34495e;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.doing p {
+    text-align: center;
+    color: #44576b;
+    font-size: 19px;
+    margin: 0 30px 60px 30px;
+}
+
+
+
+/* ##### Our App Section ##### */
+.our-app {
+    width: 100%;
+    height: 570px;
+    background: #4e54c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 40px;
+}
+.strip-white {
+    width: 50px;
+    height: 2px;
+    margin: auto;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.our-app h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/* ------ */
+.our-app .feature-container {
+    margin-top: 170px;
+}
+.our-app .jadwal-kajian-feature {
+    width: 20%;
+    margin-left: 180px;
+    animation: ui 4s ease-in-out infinite;
+}
+
+.our-app .jadwal-kajian-feature-info h2 {
+    color: black;
+    z-index: 99999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ######## Animation for UI Mockup in header ####### */
@@ -48,7 +149,7 @@ header {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-25px);
     }
     100% {
         transform: translateY(0px);
