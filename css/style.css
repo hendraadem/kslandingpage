@@ -37,5 +37,21 @@ header {
 }
 
 .img-ui {
+    animation: ui 5s ease-in-out infinite;
+}
+
+
+/* ######## Animation for UI Mockup in header ####### */
+
+@keyframes ui {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
     
 }
