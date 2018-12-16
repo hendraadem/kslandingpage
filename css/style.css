@@ -95,19 +95,38 @@ header {
 }
 
 /* ------ */
+
 .our-app .feature-container {
-    margin-top: 170px;
+    margin: 70px 100px;
 }
-.our-app .jadwal-kajian-feature {
-    width: 20%;
-    margin-left: 180px;
+
+.jadwal-kajian-feature {
+    width: 40%;
+    height: 200px;
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
     animation: ui 4s ease-in-out infinite;
 }
 
-.our-app .jadwal-kajian-feature-info h2 {
-    color: black;
-    z-index: 99999;
+.jadwal-kajian-feature-info {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    padding-top: 120px;
 }
+
+.jadwal-kajian-feature-info h1 {
+    font-size: 35px;
+    color: white;
+}
+.jadwal-kajian-feature-info p {
+    font-size: 19px;
+    color: white;
+}
+
+
+
 
 
 
